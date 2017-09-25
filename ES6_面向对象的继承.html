@@ -23,9 +23,9 @@
 					alert(this.pass)
 				}
 			}
-			let u1 = new User('zyh',123456)
-			u1.showName()
-			u1.showPass()
+//			let u1 = new User('zyh',123456)
+//			u1.showName()
+//			u1.showPass()
 			
 			//继承
 			//VipUser扩展自User
@@ -34,7 +34,14 @@
 					super(name,pass)//父类：执行父类的构造函数
 					this.level = level;
 				}
+				showLevel(){
+					alert(this.level)
+				}
 			}
+			let v1 = new VipUser('zyh',123456,1)
+			v1.showName()
+			v1.showPass()
+			v1.showLevel()
 		</script>
 	</body>
 </html>
