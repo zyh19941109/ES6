@@ -58,8 +58,9 @@
 			  	*展开后的效果，跟数组的内容一致
 		  	
 		默认参数
+		
 			function show(a, b=5, c=12){
-  				console.log(a, b, c);//99,5,12
+			  	console.log(a, b, c);//99,5,12
 			}
 			show(99);
 			
@@ -170,9 +171,7 @@
 			
 			方法                           : function一块删
 		    
-			    show: function (){...}
-			    
-			    show(){...}
+				show: function (){...}		=>		show(){...}
 		
 		json的标准写法：
 		
@@ -181,7 +180,9 @@
 			2.所有的名字都必须用引号包起来
 		
 		{a: 12, b: 5}       	×
+		
 		{"a": 12, "b": 5}   	√
 		
 		{a: 'abc', b: 5}    	×
+		
 		{"a": "abc", "b": 5}	√
