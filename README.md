@@ -52,7 +52,7 @@
 				  	alert(b);
 				  	alert(c);
 				}
-			    show(...arr);
+				show(...arr);
 			    
 			  	...arr		=>		1,2,3
 			  	*展开后的效果，跟数组的内容一致
