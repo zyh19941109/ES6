@@ -58,10 +58,10 @@
 			  	*展开后的效果，跟数组的内容一致
 		  	
 		默认参数
-			function show(a, b=5, c=12){
-			      console.log(a, b, c);//99,5,12
-			    }
-			show(99);
+				function show(a, b=5, c=12){
+      				console.log(a, b, c);//99,5,12
+    			}
+				show(99);
 			
 			有实参走实参，无实参走默认
 
