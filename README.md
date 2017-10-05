@@ -37,9 +37,9 @@
 			1.收集参数
 			
 				function show(a, b, ...args){
-			      	console.log(args);// [8, 9, 20, 21, 90]
-			    }
-			    show(12, 15, 8, 9, 20, 21, 90);
+					console.log(args);// [8, 9, 20, 21, 90]
+				}
+				show(12, 15, 8, 9, 20, 21, 90);
 			    
 				function show(a, b, ...args){}
 				*Rest Parameter(剩余参数)必须是最后一个
@@ -47,15 +47,12 @@
 			2.展开数组
 			
 				let arr=[1,2,3];
+				function show(a, b, c){
+				  	alert(a);
+				  	alert(b);
+				  	alert(c);
+				}
 			    show(...arr);
-			    //...arr
-			    //1,2,3
-			    //show(1,2,3);
-			    function show(a, b, c){
-			      alert(a);
-			      alert(b);
-			      alert(c);
-			    }
 			    
 			  	...arr		=>		1,2,3
 			  	*展开后的效果，跟数组的内容一致
