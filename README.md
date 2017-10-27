@@ -186,3 +186,20 @@
 		{a: 'abc', b: 5}    	×
 		
 		{"a": "abc", "b": 5}	√
+
+### Object.assign()
+
+		用于将所有可枚举属性的值从一个或多个源对象复制到目标对象并返回目标对象。
+		
+		Object.assign(target, ...sources)
+			参数：
+				target（目标对象）
+				sources（源对象）
+			返回值：
+				目标对象
+		
+		Object.assign方法实行的是浅拷贝，而不是深拷贝
+		
+			1.Object.assign()拷贝的是属性值。假如源对象的属性值是一个指向对象的引用，它也只拷贝那个引用值。
+			
+			2.遇到同名属性，Object.assign的处理方法是替换，而不是添加。
